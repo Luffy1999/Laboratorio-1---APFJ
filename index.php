@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html Lang=es>
+<html language= "es">
     <head>
-        <title> Alejandra Patricia Figueroa Jarquín</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="UTF-8" />
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/style.css" />
-        <script src="js/jquery-3.7.1.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
+        <title>Alejandra Patricia Figueroa Jarquín</title>
+        <meta name = "viewport" content="width=device-width. initial-scale=1"/>
+        <meta charset= "UTF-8"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <script src= "js/jquery-3.7.1.min.js"></script>
+        <script src= "js/bootstrap.bundle.min.js"></script>
     </head>
     <body>
         <div class="container-fluid">
             <div class="contenedor">
-                <div class="row aling-items-center h-100">
+                <div class="row align-items-center h-100">
                     <div class="col"></div>
                     <div class="col">
-                        <div class="row aling-items-center">
+                        <div class="align-items-center">
                             <p>Alejandra Patricia Figueroa Jarquín</p>
                             <form name="frm_login" id="frm_login" action="core/process.php">
                                 <table>
                                     <thead>
                                         <tr>
-                                            <th class="parrafo_centrado">Inicio de Sesion</th>
+                                            <th class="parrafo_centrado">Inicio de Sesión</th>
                                         </tr>
                                         <tr>
                                             <th>&nbsp;</th>
@@ -33,20 +33,21 @@
                                                 <div class="form-row">
                                                     <div class="form-group col-md-6">
                                                         <label for="txt_usuario">USUARIO:</label>
-                                                        <input type="text" class="form-control" name="txt_usuario"  id="txt_usuario"maxlength="15" aria-describeby="txt_user_help" required />
-                                                        <small id="txt_user_help" class="form-text text_muted"> El usuario es obligatorio</small>
+                                                        <input type="text" class="form-control" name="txt_usuario" id="txt_usuario" maxlength="15" aria_describedby="txt_user_help" required />
+                                                        <small id="txt_user_help" class="form-text text_muted">El usuario es obligatorio</small>
                                                     </div>
                                                     <div class="form-group col-md-6">
                                                         <label for="txt_password">CONTRASEÑA:</label>
-                                                        <input tupe="password" class="form-control" name="txt_password" id="txt_password" maxlength="15" aria-describeby="txt_password_help" required/>
-                                                        <small id="txt_password_hep" class="form-text-muted"> La contraseña es obligatoria </small>
+                                                        <input type="password" class="form-control" name="txt_password" id="txt_password" maxlength="15" aria_describedby="txt_password_help" required />
+                                                        <small id="txt_password_help" class="form-text text_muted">La contraseña es obligatoria</small>
                                                     </div>
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td align="center">
-                                                <button type="button" class="btn btn-primaty" name="btn_entrar" id="bnt_entrar"></button>
+                                                <button type="button" class="btn btn-primary" name="btn_entrar" id="btn_entrar">Iniciar Sesión</button>
+                                                <div class="mensaje"></div>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -85,5 +86,5 @@
 				});
 			});
 		</script>
-    <body>
-<html>   
+    </body>
+</html>
